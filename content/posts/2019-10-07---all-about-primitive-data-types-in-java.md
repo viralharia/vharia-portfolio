@@ -4,7 +4,7 @@ date: '2019-10-07 12:40'
 template: "post"
 draft: false
 slug: "/posts/all-about-primitive-data-types-in-java/"
-category: "Design Inspiration"
+category: "Java"
 tags:
   - "coreJava"
   - "java"

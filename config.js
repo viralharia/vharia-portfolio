@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Viral Haria',
     photo: '/photo.jpg',
-    bio: `'I am an experienced Software Engineer who loves building and maintaining Software. \n 
+    bio: `I am an experienced Software Engineer who loves building and maintaining Software. \n 
     I’d love to use my passion for software development to continue building great products for people.`,
     contacts: {
       email: 'viralhar@gmail.com',
