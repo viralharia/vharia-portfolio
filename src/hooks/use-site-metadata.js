@@ -16,14 +16,8 @@ const useSiteMetadata = () => {
                 linkedin
                 github
                 twitter
-                telegram
                 instagram
                 email
-                rss
-                vkontakte
-                line
-                gitlab
-                weibo
               }
             }
             menu {

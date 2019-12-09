@@ -3,16 +3,16 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Viral Haria',
+  subtitle: 'subtitle to be added',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Software Diary',
       path: '/'
     },
     {
@@ -25,22 +25,17 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Viral Haria',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: `'I am an experienced Software Engineer who loves building and maintaining Software. \n 
+    I’d love to use my passion for software development to continue building great products for people.`,
     contacts: {
-      email: '',
+      email: 'viralhar@gmail.com',
       facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: ''
+      twitter: 'viralharia',
+      github: 'viralharia',
+      linkedin: 'viral-haria-',
+      instagram: 'viralharia/',
     }
   }
 };
