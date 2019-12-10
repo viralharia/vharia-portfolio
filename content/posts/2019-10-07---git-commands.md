@@ -1,14 +1,10 @@
 ---
+template: post
 title: GIT commands
 date: '2019-10-07 19:08'
-template: "post"
-draft: false
-slug: "/posts/git-commands/"
-category: "Random"
+category: Random
 tags:
-  - "git"
-description:
-socialImage: "/media/image-2.jpg"
+  - git
 ---
 **git status** -  which will tell you what branch you're on, whether your Local Repository is different from the Remote and the state of tracked and untracked files
 
@@ -56,3 +52,21 @@ Note that at this point, changes aren't integrated into the local branches and t
 * Using rebase you can make sure that you frequently integrate the changes other people make and push to master, while keeping a clean linear history that allows you to do a fast-forward merge when it's time to get your work into the shared branch.
 	
 **git rebase <branch_name>**
+
+****
+
+### Reverting the local changes
+There are 3 options to undo the local changes:
+
++ Discard all local changes, but save them for possible re-use later:
+```cmd
+git stash
+```
++ Discarding local changes (permanently) to a file:
+```cmd
+git checkout -- <file>
+```
++ Discard all local changes to all files permanently:
+```cmd
+git reset --hard
+```
