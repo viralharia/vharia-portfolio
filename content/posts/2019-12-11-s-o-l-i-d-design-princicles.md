@@ -2,17 +2,18 @@
 template: post
 title: S.O.L.I.D. Design Princicles
 date: '2019-12-11 15:12'
+description: SOLID design principles every dev should know
 category: Random
 tags:
   - oops
 ---
-Robert C. Martin defined five object-oriented design principles:
+[Robert C. Martin](https://blog.cleancoder.com/) defined five object-oriented design principles:
 
-1. S - Single Responsibility Principle
-2. O - Open-Closed Principle
-3. L - Liskov’s Substitution Principle
-4. I - Interface Segregation Principle, and
-5. D - Dependency Inversion Principle
+- S - Single Responsibility Principle
+- O - Open-Closed Principle
+- L - Liskov’s Substitution Principle
+- I - Interface Segregation Principle, and
+- D - Dependency Inversion Principle
 
 These together are popularly known as the **_SOLID principles._** 
 
@@ -21,7 +22,7 @@ When designing an object-oriented system, we should try to stick to these princi
 These principles help us design a system that’s more **extensible, understandable and maintainable.**
 
 ## Single Responsibility Principle
-* The Single-Responsibility Principle(SRP) states that every class must exactly do just one thing. OR there should not be more than one reason for us to modify a class.
+* The Single-Responsibility Principle(SRP) states that every class must exactly do just one thing OR there should not be more than one reason for us to modify a class.
 * If a class has more than one responsibility, it becomes coupled. A change to one responsibility results to modification of the other responsibility.
 * When designing our classes, we should aim to put related features together, so whenever they tend to change, they change for the same reason. And we should try to separate features if they will change for different reasons.
 * The Single-Responsibility Principle provides us with the following benefits:   
