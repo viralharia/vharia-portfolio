@@ -9,6 +9,8 @@ tags:
 ---
 Below diagram shows a linked list with a loop.
 
+![single AZ architecture diagram](/media/linked_list_loop.jpg)
+
 I think, there are 2 main ways to detect the loop in linked list.
 
 ### Way 1 - Using `HashSet` to store the visited nodes
